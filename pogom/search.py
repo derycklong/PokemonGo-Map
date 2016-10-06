@@ -502,7 +502,6 @@ def search_worker_thread(args, account_queue, account_failures, search_items_que
                         if remain:
                             status['message'] = 'Too fast for {:6f},{:6f}; waiting {}s...'.format(step_location[0], step_location[1], remain)
 
-
                 # Let the api know where we intend to be for this loop
                 # doing this before check_login so it does not also have to be done there
                 # when the auth token is refreshed
