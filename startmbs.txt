@@ -1,1 +1,0 @@
-python runserver.py -st 5 -l "1.282643 103.861318" -k AIzaSyBZkZzrim7XRoMaq28EmRCLvSzkAh3boHQ -ac password.csv -ps -wh http://127.0.0.1:4000 --wh-threads 80 --port 5000 -enc -w 50
